@@ -11,14 +11,11 @@
 7. [Testing](#testing)
 8. [Future Enhancements](#future-enhancements)
 9. [Contributing](#contributing)
-10. [License](#license)
 
----
 
 ## Introduction
 This project is an AI-powered Question-Answering (QA) system that focuses on South Indian cuisine. Using a pre-defined dataset of questions and answers related to South Indian food, this system utilizes free Large Language Models (LLMs) along with sentence embeddings to accurately respond to user queries. This is especially useful as users may not always ask questions in the exact format found in the dataset.
 
----
 
 ## Project Overview
 The system is designed to:
@@ -33,7 +30,6 @@ The system is designed to:
 - **Web Interface**: Built with Flask for a simple and user-friendly web interface.
 - **Extensible Architecture**: Modular design to easily integrate other LLMs or additional data.
 
----
 
 ## Dataset
 The dataset (`south_indian_food.csv`) consists of questions and answers specific to South Indian cuisine. The CSV file is structured as follows:
@@ -42,7 +38,6 @@ The dataset (`south_indian_food.csv`) consists of questions and answers specific
 
 Ensure your CSV file is formatted correctly before using it with the system.
 
----
 
 ## Technologies Used
 - **Python** 🐍
@@ -66,7 +61,6 @@ transformers==4.30.2
 huggingface_hub==0.16.4
 ```
 
----
 
 ## Setup and Installation
 
@@ -101,7 +95,6 @@ OPENAI_API_KEY=your_openai_api_key
 ### Step 5: Prepare the Dataset
 Ensure your dataset (`south_indian_food.csv`) is in the correct format and located in the project directory.
 
----
 
 ## Usage
 
@@ -117,7 +110,6 @@ Ensure your dataset (`south_indian_food.csv`) is in the correct format and locat
 - Input: *"What is a traditional South Indian breakfast?"*
 - Output: *"Idli, Dosa, and Vada are popular South Indian breakfast items."*
 
----
 
 ## Testing
 
@@ -129,15 +121,12 @@ python -m unittest test_llm_manager.py
 
 Ensure all test cases pass for a stable deployment.
 
----
-
 ## Future Enhancements
 - **Voice Input Support**: Enable users to ask questions using voice commands.
 - **Additional Datasets**: Expand the system to include other types of Indian cuisine.
 - **Advanced LLMs**: Integrate with newer models like LLaMA 2 or Falcon for improved accuracy.
 - **Deployment on Cloud**: Deploy the system on cloud platforms like AWS or Google Cloud.
 
----
 
 ## Contributing
 We welcome contributions! If you have any ideas or improvements, feel free to fork the project and submit a pull request.
@@ -149,11 +138,4 @@ We welcome contributions! If you have any ideas or improvements, feel free to fo
 4. Push to the branch: `git push origin feature-branch`
 5. Open a pull request.
 
----
 
-## License
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
---- 
-
-Feel free to reach out if you have any questions or issues! Happy coding! 🎉
