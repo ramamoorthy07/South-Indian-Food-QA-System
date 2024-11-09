@@ -87,9 +87,9 @@ pip install -r requirements.txt
 ```
 
 ### Step 4: Set Up Environment Variables
-Create a `.env` file in the root directory and add your OpenAI API key:
+Create a `.env` file in the root directory and add your GEMINI API key:
 ```
-OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY = "YOUR_API_KEY"
 ```
 
 ### Step 5: Prepare the Dataset
