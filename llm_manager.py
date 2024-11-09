@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # API setup
-GEMINI_API_KEY = "AIzaSyADTuk6uZ7jI-ZcBL9DuwEUkv7sAJfRSOk"
+GEMINI_API_KEY = "YOUR_API_KEY"
 gemini_llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1, api_key=GEMINI_API_KEY)
 
 def get_llm_response_with_context(questions: str, answers: str, user_questions: str):
